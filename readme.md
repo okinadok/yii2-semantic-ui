@@ -1,6 +1,7 @@
 # Yii2 Semantic UI extension
 
 [Semantic UI](http://semantic-ui.com) extension for [Yii2](http://www.yiiframework.com)
+This library is a fork from  Zelenin's Yii2 Semantic UI extension (https://github.com/zelenin/yii2-semantic-ui)
 
 ## Installation
 
@@ -13,13 +14,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require zelenin/yii2-semantic-ui "~2"
+php composer.phar require paulosales/yii2-semantic-ui "~2"
 ```
 
 or add
 
 ```
-"zelenin/yii2-semantic-ui": "~2"
+"paulosales/yii2-semantic-ui": "~2"
 ```
 
 to the require section of your ```composer.json```
@@ -44,7 +45,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\web\JqueryAsset',
-        'Zelenin\yii\SemanticUI\assets\SemanticUICSSAsset'
+        'paulosales\yii\SemanticUI\assets\SemanticUICSSAsset'
     ];
 }
 ```
