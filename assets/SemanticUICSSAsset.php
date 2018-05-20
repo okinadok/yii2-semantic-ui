@@ -1,6 +1,6 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\assets;
+namespace PauloSales\yii\SemanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;

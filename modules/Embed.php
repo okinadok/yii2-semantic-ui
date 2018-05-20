@@ -1,11 +1,11 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\modules;
+namespace PauloSales\yii\SemanticUI\modules;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
-use Zelenin\yii\SemanticUI\Widget;
+use PauloSales\yii\SemanticUI\Widget;
 
 class Embed extends Widget
 {

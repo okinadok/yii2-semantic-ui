@@ -1,10 +1,10 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\widgets;
+namespace PauloSales\yii\SemanticUI\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Inflector;
-use Zelenin\yii\SemanticUI\Elements;
+use PauloSales\yii\SemanticUI\Elements;
 
 class Pjax extends \yii\widgets\Pjax
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI;
+namespace PauloSales\yii\SemanticUI;
 
-use Zelenin\yii\SemanticUI\assets\SemanticUIJSAsset;
+use PauloSales\yii\SemanticUI\assets\SemanticUIJSAsset;
 
 class Widget extends \yii\base\Widget
 {

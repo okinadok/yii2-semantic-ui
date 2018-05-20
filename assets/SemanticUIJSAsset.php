@@ -1,6 +1,6 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\assets;
+namespace PauloSales\yii\SemanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -17,7 +17,7 @@ class SemanticUIJSAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'Zelenin\yii\SemanticUI\assets\SemanticUICSSAsset'
+        'paulosales\yii\SemanticUI\assets\SemanticUICSSAsset'
     ];
 
     public function init()

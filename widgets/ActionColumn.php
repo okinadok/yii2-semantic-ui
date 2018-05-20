@@ -1,10 +1,10 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\widgets;
+namespace PauloSales\yii\SemanticUI\widgets;
 
 use Yii;
 use yii\helpers\Html;
-use Zelenin\yii\SemanticUI\Elements;
+use PauloSales\yii\SemanticUI\Elements;
 
 class ActionColumn extends \yii\grid\ActionColumn
 {
