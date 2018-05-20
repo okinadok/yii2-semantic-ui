@@ -1,6 +1,7 @@
 # Yii2 Semantic UI extension
 
 [Semantic UI](http://semantic-ui.com) extension for [Yii2](http://www.yiiframework.com)
+
 This library is a fork from  Zelenin's Yii2 Semantic UI extension (https://github.com/zelenin/yii2-semantic-ui)
 
 ## Installation
@@ -55,15 +56,15 @@ Use Semantic UI widgets and elements. Standard Yii2 widgets also adopted.
 You may replace yii2 standard widgets. Write in bootstrap.php:
 
 ```php
-Yii::$container->set(\yii\grid\GridView::className(), \Zelenin\yii\SemanticUI\widgets\GridView::className());
-Yii::$container->set(\yii\widgets\ActiveForm::className(), \Zelenin\yii\SemanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\bootstrap\ActiveForm::className(), \Zelenin\yii\SemanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\widgets\Breadcrumbs::className(), \Zelenin\yii\SemanticUI\collections\Breadcrumb::className());
-Yii::$container->set(\yii\grid\CheckboxColumn::className(), \Zelenin\yii\SemanticUI\widgets\CheckboxColumn::className());
+Yii::$container->set(\yii\grid\GridView::className(), \PauloSales\yii\SemanticUI\widgets\GridView::className());
+Yii::$container->set(\yii\widgets\ActiveForm::className(), \PauloSales\yii\SemanticUI\widgets\ActiveForm::className());
+Yii::$container->set(\yii\bootstrap\ActiveForm::className(), \PauloSales\yii\SemanticUI\widgets\ActiveForm::className());
+Yii::$container->set(\yii\widgets\Breadcrumbs::className(), \PauloSales\yii\SemanticUI\collections\Breadcrumb::className());
+Yii::$container->set(\yii\grid\CheckboxColumn::className(), \PauloSales\yii\SemanticUI\widgets\CheckboxColumn::className());
 ```
 
 Be very careful with it.
 
 ## Author
 
-[Aleksandr Zelenin](https://github.com/zelenin/), e-mail: [aleksandr@zelenin.me](mailto:aleksandr@zelenin.me)
+[Paulo Rogério Sales](https://github.com/paulosales/), e-mail: [paulosales@gmail.com](mailto:paulosales@gmail.com)
